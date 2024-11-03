@@ -2,7 +2,7 @@
 
 This branch contains the code for learning the residual dynamic model for aggressive jumping maneuvers
 
-Hardware Experiment Video: https://www.youtube.com/watch?v=oqF4PsurAxU
+Hardware Experiment Video: https://www.youtube.com/watch?v=yUqI_MBOC6Q
 
 ### Prerequisites
 - tested with Ubuntu 20.04, Python 3.8 and Python 3.9
