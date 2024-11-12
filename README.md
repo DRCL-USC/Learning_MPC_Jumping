@@ -2,7 +2,7 @@
 
 This branch contains the code for learning the residual dynamic model for aggressive jumping maneuvers
 
-Hardware Experiment Video: https://www.youtube.com/watch?v=yUqI_MBOC6Q
+Hardware Experiment Video: https://www.youtube.com/watch?v=oqF4PsurAxU
 
 ### Prerequisites
 - tested with Ubuntu 20.04, Python 3.8 and Python 3.9
@@ -42,6 +42,34 @@ $ python generate_dataset.py
 ```
 $ cd residual_learning
 $ python3 convert_to_hardware_full.py
+```
+## Real-time MPC Execution
+
+### Prerequisites
+- eigen-3.3.7
+- lcm-1.4.0
+- libtorch-cxx11--2.0.1 (link to download: )
+- MoCap system
+
+### Get jumping reference
+
+```
+$ cd hw_execution/a1_robot_code_jumpMPC/Controllers/optimization_data/jump2D/MDC
+$ python parse_data_new.py
+```
+
+### Build and run
+
+```
+$ cd hw_exp/a1_robot_code_jumpMPC
+$ mkdir build 
+$ cd build 
+$ cmake ..
+$ make -j4
+```
+Note: Check the path of the downloaded libtorch library in a1_robot_code_jumpMPC/Controllers/CMakeLists.txt
+```
+list(APPEND CMAKE_PREFIX_PATH "/path/to/the/libtorch")
 ```
 
 ### Contact Information:
