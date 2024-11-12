@@ -54,7 +54,7 @@ python3 convert_to_hardware_full.py
 ### Get jumping reference
 
 ```
-cd hw_execution/a1_robot_code_jumpMPC/Controllers/optimization_data/jump2D/MDC
+cd hw_exp/a1_robot_code_jumpMPC/Controllers/optimization_data/jump2D/MDC
 python parse_data_new.py
 ```
 
