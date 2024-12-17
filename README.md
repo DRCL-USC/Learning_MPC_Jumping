@@ -1,8 +1,11 @@
 ## Variable-Frequency Model Learning
 
-This branch contains the code for learning the residual dynamic model for aggressive jumping maneuvers
+This branch contains the code for learning the residual dynamic model for aggressive jumping maneuvers.
+Paper: Variable-Frequency Model Learning and Predictive Control for Jumping Maneuvers on Legged Robots
+Accepted to RAL in Nov 2014, DOI: 10.1109/LRA.2024.3519864
+arXiv: https://arxiv.org/pdf/2407.14749
 
-Hardware Experiment Video: https://www.youtube.com/watch?v=oqF4PsurAxU
+Hardware Experiment Video: [https://www.youtube.com/watch?v=oqF4PsurAxU](https://www.youtube.com/watch?v=yUqI_MBOC6Q)
 
 ### Prerequisites
 - tested with Ubuntu 20.04, Python 3.8 and Python 3.9
