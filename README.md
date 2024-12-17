@@ -4,7 +4,7 @@ This branch contains the code for learning the residual dynamic model for aggres
 
 Paper: Variable-Frequency Model Learning and Predictive Control for Jumping Maneuvers on Legged Robots 
 
-(RAL in Nov 2014, DOI: 10.1109/LRA.2024.3519864)
+(Accepted to RAL in Nov 2014, DOI: 10.1109/LRA.2024.3519864)
 
 arXiv: https://arxiv.org/pdf/2407.14749
 
