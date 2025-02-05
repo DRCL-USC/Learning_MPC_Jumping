@@ -3,12 +3,15 @@
 This branch contains the code for learning the residual dynamic model for aggressive jumping maneuvers.
 
 Paper: Variable-Frequency Model Learning and Predictive Control for Jumping Maneuvers on Legged Robots 
-
-(Accepted to RAL in Nov 2014, DOI: 10.1109/LRA.2024.3519864)
-
 arXiv: https://arxiv.org/pdf/2407.14749
 
 Hardware Experiment Video: [https://www.youtube.com/watch?v=oqF4PsurAxU](https://www.youtube.com/watch?v=yUqI_MBOC6Q)
+
+### How to cite
+```
+C. Nguyen, A. Altawaitan, T. Duong, N. Atanasov and Q. Nguyen, "Variable-Frequency Model Learning and Predictive Control for Jumping Maneuvers on Legged Robots," 
+in IEEE Robotics and Automation Letters, vol. 10, no. 2, pp. 1321-1328, Feb. 2025, doi: 10.1109/LRA.2024.3519864.
+```
 
 ### Prerequisites
 - tested with Ubuntu 20.04, Python 3.8 and Python 3.9
@@ -82,3 +85,4 @@ list(APPEND CMAKE_PREFIX_PATH "/path/to/the/libtorch")
 Chuong Nguyen -- vanchuon@usc.edu
 Abdullah Altawaitan -- aaltawaitan@ucsd.edu
 Thai Duong -- tduong@ucsd.edu
+
