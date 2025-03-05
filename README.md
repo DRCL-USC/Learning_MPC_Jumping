@@ -9,8 +9,16 @@ Hardware Experiment Video: [https://www.youtube.com/watch?v=oqF4PsurAxU](https:/
 
 ### How to cite
 ```
-C. Nguyen, A. Altawaitan, T. Duong, N. Atanasov and Q. Nguyen, "Variable-Frequency Model Learning and Predictive Control for Jumping Maneuvers on Legged Robots," 
-in IEEE Robotics and Automation Letters, vol. 10, no. 2, pp. 1321-1328, Feb. 2025, doi: 10.1109/LRA.2024.3519864.
+@ARTICLE{10806807,
+  author={Nguyen, Chuong and Altawaitan, Abdullah and Duong, Thai and Atanasov, Nikolay and Nguyen, Quan},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Variable-Frequency Model Learning and Predictive Control for Jumping Maneuvers on Legged Robots}, 
+  year={2025},
+  volume={10},
+  number={2},
+  pages={1321-1328},
+  keywords={Robots;Accuracy;Legged locomotion;Predictive models;Robustness;Hardware;Aerodynamics;Uncertainty;Load modeling;Real-time systems;Model learning for control;legged robots;whole-body motion planning and control},
+  doi={10.1109/LRA.2024.3519864}}
 ```
 
 ### Prerequisites
